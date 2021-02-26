@@ -15,13 +15,13 @@
 		return $numd / $numd2;
 	}
 
-	echo "Enter a number"."<br>";
+	echo "Enter a number";
 	$num = (int)readline(" ");
 
-	echo "Enter an operator"."<br>";
+	echo "Enter an operator";
 	$op = readline("");
 
-	echo "Enter another number"."<br>";
+	echo "Enter another number";
 	$num2 = (int)readline(" ");
 
 	if ($op == "+"){
